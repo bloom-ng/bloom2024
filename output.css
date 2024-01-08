@@ -1862,6 +1862,11 @@ video {
   background-color: rgb(245 158 11 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-neutral-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(212 212 212 / var(--tw-bg-opacity));
@@ -1870,10 +1875,6 @@ video {
 .bg-stone-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(28 25 23 / var(--tw-bg-opacity));
-}
-
-.bg-transparent {
-  background-color: transparent;
 }
 
 .bg-white {
@@ -2099,6 +2100,10 @@ video {
 
 .font-\[\'Faustina\'\] {
   font-family: 'Faustina';
+}
+
+.font-grotesk {
+  font-family: TomatoGrotesk-Bold, TomatoGrotesk-BlackSlanted, TomatoGrotesk-Bold, TomatoGrotesk-BoldSlanted, TomatoGrotesk-ExtraBold, TomatoGrotesk-ExtraBoldSlanted, TomatoGrotesk-ExtraLight, TomatoGrotesk-ExtraLightSlanted, TomatoGrotesk-Light, TomatoGrotesk-LightSlanted, TomatoGrotesk-Medium, TomatoGrotesk-MediumSlanted, TomatoGrotesk-Regular, TomatoGrotesk-SemiBold, TomatoGrotesk-SemiBoldSlanted, TomatoGrotesk-Slanted, TomatoGrotesk-Thin, TomatoGrotesk-ThinSlanted, sans-serif;
 }
 
 .text-2xl {
