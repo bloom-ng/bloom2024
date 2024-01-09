@@ -885,6 +885,18 @@ video {
   width: weird-and-invalid;
 }
 
+.w-\[50vw\] {
+  width: 50vw;
+}
+
+.w-\[48vw\] {
+  width: 48vw;
+}
+
+.w-\[vw\] {
+  width: vw;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -2040,6 +2052,14 @@ video {
 .py-\[13px\] {
   padding-top: 13px;
   padding-bottom: 13px;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
 .text-left {
